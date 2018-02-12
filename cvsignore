@@ -1,0 +1,27 @@
+# This works in programs such as rsync as well!
+
+# Note: this is relatively conservative, only put things that you know
+# 100% you will never want in a repository in here, otherwise you could
+# spend way too much time debugging why git won't track a file
+
+
+#  Rivals ( don't track other version control files )
+.svn
+.hg
+
+#  Mac OS ( Nobody likes these files )
+.DS_Store
+
+#  Vim swap files ( If you use vim this will be very useful )
+.*.sw[a-z]
+
+#  IntelliJ IDEA project config ( if you decide that eclipse isn't for you )
+.idea/
+*.iws
+*.ipr
+
+# tags
+tags
+
+# Sublime Text
+*.sublime-*

@@ -1,2 +1,2 @@
 HOSTNAME="work-laptop"
-
+SYMLINK_DIRS="vim"

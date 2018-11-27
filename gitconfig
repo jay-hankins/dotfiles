@@ -1,7 +1,6 @@
 [user]
 	name = Jay Hankins
-	email = hankins.jay@gmail.com
-	signingkey = 8B916C25AE6718B7
+	email = jhankins@salesforce.com
 [color]
 	ui = true
 [core]
@@ -38,3 +37,5 @@
 	gpgSign = true
 [tag]
 	forceSignAnnotated = true
+[sequence]
+	editor = irt

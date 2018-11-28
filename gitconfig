@@ -38,4 +38,4 @@
 [tag]
 	forceSignAnnotated = true
 [sequence]
-	editor = irt
+	editor = rebase-tool

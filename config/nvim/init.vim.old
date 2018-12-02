@@ -1,0 +1,8 @@
+call plug#begin('~/.local/share/nvim/plugged')
+Plug 'ayu-theme/ayu-vim'
+call plug#end()
+
+set termguicolors	" enable true colors support
+let ayucolor="mirage"
+colorscheme ayu
+

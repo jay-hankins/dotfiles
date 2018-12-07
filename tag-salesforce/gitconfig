@@ -1,0 +1,41 @@
+[user]
+	name = Jay Hankins
+	email = jhankins@salesforce.com
+[color]
+	ui = true
+[core]
+	editor = nvim
+	excludesfile = ~/.cvsignore
+[alias]
+ 	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+	d = difftool
+	dw = diff --word-diff
+	tree = "forest --pretty=format:\"%C(red)%h %C(magenta)(%ar) %C(blue)%an %C(reset)%s\" --style=15" # --reverse
+	fileblame = "log --name-only --diff-filter=A --date=short --pretty=format:\"%an <%ae> on %ad in %h\" --"
+	co = "checkout"
+	# first-commit = ! git log --decorate=short | tail -n 5 | head -n 1 | grep "\b[A-Fa-f0-9]+"
+[push]
+	default = simple
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[gpg]
+	program = /usr/local/bin/krgpg
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[sequence]
+	editor = rebase-tool

@@ -1,1 +1,0 @@
-/Users/jay/.dotfiles/config/fish/functions/jhankins.fish

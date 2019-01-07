@@ -1,4 +1,4 @@
 # Defined in - @ line 0
-function kc --description 'alias kc kubectl'
+function kc --wraps kubectl --description 'alias kc kubectl'
 	kubectl  $argv;
 end

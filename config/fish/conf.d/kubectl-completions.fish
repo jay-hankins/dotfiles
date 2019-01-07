@@ -1,1 +1,0 @@
-/Users/jhankins/.config/fisherman/kubectl-completions/conf.d/kubectl-completions.fish

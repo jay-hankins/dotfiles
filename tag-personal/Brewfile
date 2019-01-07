@@ -1,1 +1,99 @@
-/Users/jay/.dotfiles/Brewfile
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "jeffreywildman/virt-manager"
+tap "kryptco/tap"
+tap "thoughtbot/formulae"
+cask "xquartz"
+brew "fasd"
+brew "fish"
+brew "fzy"
+brew "go"
+brew "hub"
+brew "interactive-rebase-tool"
+brew "mas"
+brew "python"
+brew "mosh"
+brew "nativefier"
+brew "neovim"
+brew "reattach-to-user-namespace"
+brew "ruby", link: true
+brew "rust"
+brew "the_silver_searcher"
+brew "tldr"
+brew "tmux"
+brew "tree"
+brew "wget"
+brew "yarn"
+brew "kryptco/tap/kr"
+brew "thoughtbot/formulae/rcm"
+cask "aerial"
+cask "alfred"
+cask "appcleaner"
+cask "atext"
+cask "authy"
+cask "bartender"
+cask "caprine"
+cask "discord"
+cask "docker"
+cask "dropbox"
+cask "eloston-chromium"
+cask "etcher"
+cask "firefox-beta"
+cask "firefox-developer-edition"
+cask "flux"
+cask "font-fira-code"
+cask "font-hack"
+cask "font-office-code-pro"
+cask "font-roboto-mono"
+cask "google-chrome"
+cask "hyper"
+cask "iina"
+cask "insomnia"
+cask "iterm2"
+cask "itsycal"
+cask "kap"
+cask "karabiner-elements"
+cask "keybase"
+cask "meteorologist"
+cask "ngrok"
+cask "notion"
+cask "plex-media-player"
+cask "rocket"
+cask "screens"
+cask "skype"
+cask "sonos"
+cask "sourcetree"
+cask "spotify"
+cask "tor-browser"
+cask "transmission"
+cask "tripmode"
+cask "tunnelblick"
+cask "visual-studio-code"
+cask "vlc"
+cask "vmware-fusion"
+mas "Affinity Photo", id: 824183456
+mas "Agenda", id: 1287445660
+mas "Amphetamine", id: 937984704
+mas "Apple Configurator 2", id: 1037126344
+mas "Enpass", id: 732710998
+mas "GIF Keyboard", id: 1043270657
+mas "HazeOver", id: 430798174
+mas "HEIC Converter", id: 1294126402
+mas "Helium", id: 1054607607
+mas "Image2Icon", id: 992115977
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "MindNode", id: 1289197285
+mas "Moom", id: 419330170
+mas "Numbers", id: 409203825
+mas "OneDrive", id: 823766827
+mas "Paste", id: 967805235
+mas "Reeder", id: 880001334
+mas "Skitch", id: 425955336
+mas "Spark", id: 1176895641
+mas "Todoist", id: 585829637
+mas "Xcode", id: 497799835

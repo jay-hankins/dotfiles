@@ -38,4 +38,6 @@
 [tag]
 	forceSignAnnotated = true
 [sequence]
-	editor = irt 
+	editor = interactive-rebase-tool 
+[url "git@git.soma.salesforce.com:"]
+	insteadOf = https://git.soma.salesforce.com/

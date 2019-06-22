@@ -1,6 +1,7 @@
 [user]
 	name = Jay Hankins
 	email = hankins.jay@gmail.com
+    signingkey = 9C9EFEA54C97416B 
 [color]
 	ui = true
 [core]
@@ -32,7 +33,7 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [gpg]
-	program = /usr/local/bin/krgpg
+	program = /usr/local/bin/gpg
 [commit]
 	gpgSign = true
 [tag]

@@ -5,29 +5,39 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "jeffreywildman/virt-manager"
+tap "khanhas/tap"
 tap "kryptco/tap"
 tap "thoughtbot/formulae"
-cask "xquartz"
+brew "python"
+brew "coreos-ct"
+brew "exa"
 brew "fasd"
 brew "fish"
 brew "fzy"
 brew "go"
+brew "hopenpgp-tools"
 brew "hub"
 brew "interactive-rebase-tool"
 brew "mas"
-brew "python"
 brew "mosh"
 brew "nativefier"
 brew "neovim"
+brew "pinentry-mac"
+brew "pipenv"
 brew "reattach-to-user-namespace"
-brew "ruby", link: true
+brew "ruby"
 brew "rust"
+brew "telnet"
 brew "the_silver_searcher"
 brew "tldr"
 brew "tmux"
 brew "tree"
 brew "wget"
+brew "yadm"
 brew "yarn"
+brew "ykpers"
+brew "ykman"
+brew "khanhas/tap/spicetify-cli"
 brew "kryptco/tap/kr"
 brew "thoughtbot/formulae/rcm"
 cask "aerial"
@@ -36,8 +46,12 @@ cask "appcleaner"
 cask "atext"
 cask "authy"
 cask "bartender"
+cask "brave-browser-beta"
+cask "calibre"
 cask "caprine"
+cask "choosy"
 cask "discord"
+cask "disk-inventory-x"
 cask "docker"
 cask "dropbox"
 cask "eloston-chromium"
@@ -47,18 +61,25 @@ cask "firefox-developer-edition"
 cask "flux"
 cask "font-fira-code"
 cask "font-hack"
+cask "font-ia-writer-duospace"
+cask "font-ibm-plex"
+cask "font-inter-ui"
 cask "font-office-code-pro"
 cask "font-roboto-mono"
+cask "google-backup-and-sync"
 cask "google-chrome"
 cask "hyper"
 cask "iina"
+cask "imageoptim"
 cask "insomnia"
-cask "iterm2"
+cask "iterm2-beta"
 cask "itsycal"
+cask "java"
 cask "kap"
 cask "karabiner-elements"
 cask "keybase"
 cask "meteorologist"
+cask "microsoft-office"
 cask "ngrok"
 cask "notion"
 cask "plex-media-player"
@@ -67,16 +88,23 @@ cask "screens"
 cask "skype"
 cask "sonos"
 cask "sourcetree"
+cask "spectrum"
 cask "spotify"
 cask "tor-browser"
 cask "transmission"
 cask "tripmode"
 cask "tunnelblick"
+cask "ubersicht"
+cask "vagrant"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
 cask "visual-studio-code"
 cask "vlc"
-cask "vmware-fusion"
+cask "xquartz"
+cask "yubico-authenticator"
+cask "yubico-yubikey-manager"
+cask "yubico-yubikey-piv-manager"
 mas "Affinity Photo", id: 824183456
-mas "Agenda", id: 1287445660
 mas "Amphetamine", id: 937984704
 mas "Apple Configurator 2", id: 1037126344
 mas "Enpass", id: 732710998
@@ -84,16 +112,19 @@ mas "GIF Keyboard", id: 1043270657
 mas "HazeOver", id: 430798174
 mas "HEIC Converter", id: 1294126402
 mas "Helium", id: 1054607607
-mas "Image2Icon", id: 992115977
+mas "Image2icon", id: 992115977
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
 mas "MindNode", id: 1289197285
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
-mas "OneDrive", id: 823766827
 mas "Paste", id: 967805235
 mas "Reeder", id: 880001334
 mas "Skitch", id: 425955336
 mas "Spark", id: 1176895641
-mas "Todoist", id: 585829637
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+mas "TickTick", id: 966085870
+mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-quip-app": "^0.0.45",
+    "react-devtools": "^3.6.1"
+  }
+}
